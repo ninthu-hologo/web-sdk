@@ -49,7 +49,7 @@ export const ButtonContainer = styled.div`
     width: 100%;
     background: transparent;
     padding-right: 20px;
-    padding-top: 50px;
+    padding-top: 15px;
     z-index: 10000000;
     color: #fff;
 
