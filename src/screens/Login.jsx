@@ -12,7 +12,7 @@ const Login = () => {
       e.preventDefault();
   
       // Check if the entered username and password match the default values
-      if (username === 'hologo-aria' && password === 'hologo123') {
+      if (username === 'hologo' && password === 'hologo123') {
         setAuth(true);
         setLoginSuccess(true);
       } else {
