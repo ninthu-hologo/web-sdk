@@ -16,7 +16,7 @@ const CamKit = () => {
 
   const apiToken =
     "eyJhbGciOiJIUzI1NiIsImtpZCI6IkNhbnZhc1MyU0hNQUNQcm9kIiwidHlwIjoiSldUIn0.eyJhdWQiOiJjYW52YXMtY2FudmFzYXBpIiwiaXNzIjoiY2FudmFzLXMyc3Rva2VuIiwibmJmIjoxNjkxOTAzNjY2LCJzdWIiOiI3NDAyOTgxZS03N2M0LTQ0M2QtYjk2OS0yY2E3YjUzOWZmMjd-UFJPRFVDVElPTn42M2YwYTQ2Yy1jMmZmLTQxN2UtYTBkMC05YjM2MmM5NGUyZWUifQ.lit2odeqkuEKa5rR2o5e65nSuhk9gFgho95RFCPqAys";
-  const lensGroupId = "bd8a9f04-477b-4336-994b-b4e1fcbf3200";
+  const lensGroupId = "12ecf305-39f8-4e2e-9cf7-26348a114426";
   const { currentLensIndex, setCurrentLensIndex } = useContext(AuthContext);
   const { lensesLength, setLensesLength } = useContext(AuthContext);
   const { lensesFetch, setLensesFetch } = useContext(AuthContext);
