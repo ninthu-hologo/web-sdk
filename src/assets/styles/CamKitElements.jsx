@@ -16,7 +16,7 @@ export const Container = styled.div`
 
 height: 100%; 
 width : 100vh ;
-border: 1px solid red;
+/* border: 1px solid red; */
 transform: rotate(-90deg);
 `
 
