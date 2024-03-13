@@ -4,7 +4,7 @@ import {
   createMediaStreamSource,
   Transform2D,
 } from "@snap/camera-kit";
-import { ButtonContainer, CanvasContainer, Container } from "../assets/styles/CamKitElements";
+import { ButtonContainer, CanvasContainer, Container, MainContainer } from "../assets/styles/CamKitElements";
 import { AuthContext } from "../utils/context/loginAuthContext";
 import CloseFullscreenIcon from '@mui/icons-material/CloseFullscreen';
 import OpenInFullIcon from '@mui/icons-material/OpenInFull';
@@ -122,7 +122,7 @@ const CamKit = () => {
 
   return (
     <>
-      
+      <MainContainer>
       <Container>
         <ButtonContainer>
         {!isFullscreen &&
@@ -137,6 +137,7 @@ const CamKit = () => {
         </ButtonContainer>
         <CanvasContainer ref={canvasRef} id="canvas-container" />
       </Container>
+      </MainContainer>
     </>
   );
 };

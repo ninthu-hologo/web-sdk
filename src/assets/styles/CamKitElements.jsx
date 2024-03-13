@@ -1,11 +1,23 @@
 import {styled,css} from "styled-components";
 
-export const Container = styled.div`
+
+
+export const MainContainer = styled.div`
 display: flex;
 flex-direction: column;
-height: 100%; 
+height : 100vh;
 width : 100%;
+overflow: hidden;
+background-color: #3a3838;
+object-position: left;
+`
+
+export const Container = styled.div`
+
+height: 100%; 
+width : 100vh ;
 border: 1px solid red;
+transform: rotate(-90deg);
 `
 
 
@@ -20,8 +32,9 @@ margin-top: 20px;
 
 export const CanvasContainer = styled.canvas`
 display: flex;
-object-fit: fill;
-height: 100vh;
+
+height: 100vw;
+width: 100vh;
  @media (max-width: 767px) {
     height: 100vh;
     background: aliceblue;
